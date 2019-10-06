@@ -64,6 +64,7 @@ class Tello:
                 print "Caught exception socket.error : %s" % exc
 
     def on_close(self):
+        print "closed"
         pass
         # for ip in self.tello_ip_list:
         #     self.socket.sendto('land'.encode('utf-8'), (ip, 8889))

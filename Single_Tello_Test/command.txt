@@ -1,4 +1,17 @@
 command
 takeoff
+speed 30
+up 50
+cw 20
+forward 250
+ccw 90
+forward 100
+cw 90
+forward 100
+cw 90
+forward 100
+cw 90
+forward 100
+forward 300
 delay 5
 land
